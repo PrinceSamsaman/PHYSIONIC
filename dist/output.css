@@ -715,6 +715,11 @@ body {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
+.bg-lightgray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\/img\/hero-cover\.jpg\'\)\] {
   background-image: url('./img/hero-cover.jpg');
 }
