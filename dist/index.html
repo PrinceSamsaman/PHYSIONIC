@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHYSIONIC</title>
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header -->
+    <header class="header py-5">
+        <div class="container">
+            <div class="headerWrapper flex items-center justify-between">
+
+                <div class="headerLogo">
+                    <h2 class="text-secondary font-bold text-[2rem]">Physionic</h2>
+                </div>
+                <div class="headerNav hidden md:block">
+                    <ul class="flex gap-5">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="getAQuoate hidden md:block">
+                    <a class="bg-primary p-3 rounded-md text-white font-semibold" href="#">Get a Quote Now</a>
+                </div>
+                <div class="flex gap-6 md:hidden">
+                    <div class="searchAndCart flex gap-6 ">
+                        <i class="fa-solid fa-magnifying-glass text-darkGray text-2xl"></i>
+                        <i class="fa-solid fa-cart-shopping text-darkGray text-2xl"></i>
+                    </div>
+                    <div class="toggleMenu cursor-pointer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="headerMobileNav md:hidden transition-all duration-500">
+                <ul class="text-center text-[1.5rem] text-darkGray font-semibold py-5">
+                    <li><a class="block p-3" href="#">Home</a></li>
+                    <li><a class="block p-3" href="#">Product</a></li>
+                    <li><a class="block p-3" href="#">Pricing</a></li>
+                    <li><a class="block p-3" href="#">Contact</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </header>
+
+    <!-- banner -->
+
+    <section class="banner bg-blend-multiply bg-cover bg-no-repeat bg-darkGray bg-[url('./img/hero-cover.jpg')] py-10 text-center">
+        <div class="container md:text-left">
+            <div class="bannerWrapper lg:flex ">
+                <div class="">
+                    <h1 class="text-huge text-white font-semibold mb-3">Meet the Best Hospital</h1>
+                    <p class="text-white mb-6 w[70%] mx-auto">We know how large objects will act, but things on a small scale</p>
+                    <div class="lg:flex gap-2">
+                        <a class="bg-primary inline-block px-5 py-3 rounded-full text-white font-semibold mb-6" href="#">Get a Qoute Now</a> <br>
+                        <a class="bg-transparent border border-white inline-block px-5 py-3 rounded-full text-white font-semibold mb-6" href="#">Learn More</a>
+                    </div>
+                </div>
+    
+                <div class="bannerForm text-left bg-white p-10 rounded-lg w-[350px] my-10 mx-auto">
+                    <h3 class="text-center text-lg font-bold mb-3">Book Appointment</h3>
+                    <form action="">
+                        <div class="inputGroup mb-3">
+                            <label for="">Name*</label><br>
+                            <input class="border-2 rounded-md p-3 w-full" type="text" placeholder="Fullname">
+                        </div>
+                        <div class="inputGroup mb-3">
+                            <label for="">Name*</label><br>
+                            <input class="border-2 rounded-md p-3 w-full" type="email" placeholder="example@gmail.com">
+                        </div>
+                        <div class="inputGroup mb-3">
+                            <label for="">Department</label>
+                            <select class="border-2 rounded-md p-3 w-full text-darkGray " name="" id="">
+                                <option value="">Please Select</option>
+                            </select>
+                        </div>
+    
+                        <div class="inputGroup mb-3">
+                            <label for="">Time</label>
+                            <select class="border-2 rounded-md p-3 w-full text-darkGray " name="" id="">
+                                <option value="">4:00 Available</option>
+                            </select>
+                        </div>
+                    </form>  
+
+                    <button class="pt-8">
+                        <a class="bg-primary px-12 py-4 text-white font-montserrat rounded-md" href="">Book Appointment</a>
+                    </button>
+                </div>
+      
+            </div>
+        </div>
+    
+    </section>
+
+    <section class="features py-7">
+        <div class="container">
+            <h1 class="text-huge font-semibold mb-6 text-center">Leading Medicine</h1>
+            <p class="text-center mb-6 w-[70%] mx-auto">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+                <div class="feauturesWrapper  md:grid grid-cols-3 gap-10 mx-10 md:mx-auto ">
+                    <div class="featurestype py-6 ">
+                        <div class="bg-primary flex rounded-lg py-5 px-5">
+                        <img src="./img/icn-circle circle-md.png" alt="">
+                        <h1 class="text-white pb-5">Emergency Cases</h1>
+                      </div>
+                      <div class="insidethefeatures border border-primary rounded-lg py-5 px-5">
+                        <p>-  The best products start 
+                            with Figma</p>
+                        <p>- Design with real data</p>
+                        <p>- Lightning fast prototyping</p>
+                        <p>- Fastest way to organize</p>
+                        <p>- Work at the speed of thought.</p>
+                        <a  class="text-primary" href="">Learn More</a>
+
+                    </div>
+
+                    </div>
+                    <div class="featurestype py-6 ">
+                    <div class="bg-primary flex rounded-lg py-5 px-5">
+                        <img src="./img/icn-circle circle-md.png" alt="">
+                        <h1 class="text-white pb-5">Cancer Care</h1>
+                      </div>
+                      <div class="insidethefeatures border border-primary rounded-lg py-5 px-5">
+                        <p>-  The best products start 
+                            with Figma</p>
+                        <p>- Design with real data</p>
+                        <p>- Lightning fast prototyping</p>
+                        <p>- Fastest way to organize</p>
+                        <p>- Work at the speed of thought.</p>
+                        <a  class="text-primary" href="">Learn More</a>
+
+                    </div>
+
+                    </div>
+
+                    <div class="featurestype py-6 ">
+                      <div class="bg-primary flex rounded-lg py-5 px-5">
+                        <img src="./img/icn-circle circle-md.png" alt="">
+                        <h1 class="text-white pb-5">Health Queries</h1>
+                      </div>
+                      <div class="insidethefeatures border border-primary rounded-lg py-5 px-5">
+                        <p>-  The best products start 
+                            with Figma</p>
+                        <p>- Design with real data</p>
+                        <p>- Lightning fast prototyping</p>
+                        <p>- Fastest way to organize</p>
+                        <p>- Work at the speed of thought.</p>
+                        <a  class="text-primary" href="">Learn More</a>
+
+                    </div>
+
+                    </div>
+                </div>
+
+        </div>
+    </section>
+
+    <section class="features py-7 bg-lightGray ">
+        <div class="container">
+            <h2 class="text-huge font-semibold mb-6 text-center">Leading Medicine</h2>
+            <p class="text-center mb-6 w-[70%] mx-auto">Problems trying to resolve the conflict between 
+                the two major realms of Classical physics: Newtonian mechanics  </p>
+                <div class="feauturesWrapper md:grid grid-cols-3 gap-4 md:mx-auto mx-10">
+    
+                <div class="featurestype py-4 px-4 border-2 rounded-md mb-5 ">   
+                    <ul class="flex rounded-lg py-5 px-5 text-xl">
+                        <li class="text-yellow-400" href="#"><i class="fa-solid fa-star"></i></li>
+                        <li class="text-yellow-400" href="#"><i class="fa-solid fa-star"></i></li>
+                        <li class="text-yellow-400" href="#"><i class="fa-solid fa-star"></i></li>
+                        <li class="text-yellow-400" href="#"><i class="fa-solid fa-star"></i></li>
+                        <li class="text-yellow-400" href="#"><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                    <div class="insidethefeatures rounded-lg py-5 px-5 ">
+                        <p class="mb-5">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                        <img src="./" alt="">
+                    </div>
+                </div>
+    
+                <div class="featurestype py-4 px-4 border-2 rounded-md mb-5 ">   
+                    <ul class="flex rounded-lg py-5 px-5 text-xl">
+                        <li class="text-yellow-400" href="#"><i class="fa-solid fa-star"></i></li>
+                        <li class="text-yellow-400" href="#"><i class="fa-solid fa-star"></i></li>
+                        <li class="text-yellow-400" href="#"><i class="fa-solid fa-star"></i></li>
+                        <li class="text-yellow-400" href="#"><i class="fa-solid fa-star"></i></li>
+                        <li class="text-yellow-400" href="#"><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                    <div class="insidethefeatures rounded-lg py-5 px-5 ">
+                        <p class="mb-5">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                        <img src="./img/dr.B.png" alt="">
+                    </div>
+                </div>
+    
+                <div class="featurestype py-4 px-4 border-2 rounded-md mb-5 ">   
+                    <ul class="flex rounded-lg py-5 px-5 text-xl">
+                        <li class="text-yellow-400" href="#"><i class="fa-solid fa-star"></i></li>
+                        <li class="text-yellow-400" href="#"><i class="fa-solid fa-star"></i></li>
+                        <li class="text-yellow-400" href="#"><i class="fa-solid fa-star"></i></li>
+                        <li class="text-yellow-400" href="#"><i class="fa-solid fa-star"></i></li>
+                        <li class="text-yellow-400" href="#"><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                    <div class="insidethefeatures rounded-lg py-5 px-5 ">
+                        <p class="mb-5">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                        <img src="./img/dr.C.png" alt="">
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+ 
+    
+
+  
+
+    <script>
+
+        const toggleMenu = document.querySelector('.toggleMenu');
+        const headerMobileNav = document.querySelector('.headerMobileNav');
+
+        toggleMenu.addEventListener('click', ()=>{
+            headerMobileNav.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>
